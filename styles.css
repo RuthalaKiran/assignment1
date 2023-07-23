@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+   
+}
+.header .log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log .login, .createacc{
+    margin-left: 30px;
+     font-size: 20px;
+     color: white;
+}
+.createacc{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.header .logo{
+    margin-right: 750px;
+    background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: red;
+}
+.header .logo p{
+    font-size: 33px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+
+.main{
+    width: 1250px;
+    /* background-color: rgb(157, 157, 222); */
+    height: 100vh;
+    margin-left: 125px;
+}
+.main .head{
+    color: #192F60;
+    font-size:30px;
+    padding-top: 20px;
+    margin-left: 25px;
+}
+.head p{
+    font-weight: 700;
+}
+
+
+
+
+
+.subdiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+}
+.subdiv .filter{
+   /* background-color: red; */
+   width: 250px;
+   height: 600px;
+   margin-right:940px;
+   box-shadow: 0px 3px 6px #00000029;
+}
+.subdiv .results{
+    margin-left: 350px;
+     margin-top: -800px;
+     padding-top:228px ;
+}
+
+.results .result1{
+    /* background-color: red; */
+    width: 890px;
+    height: 250px;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.results .result2{
+    /* background-color: red; */
+    width: 890px;
+    height: 250px;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.filter .innerdivs{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.filters {
+    margin-bottom: 20px;
+
+}
+.filters h3{
+    color: #192F60;
+   
+}
+.filters p{
+    margin-top: 5px;
+    color: #192F60;
+}
+.dropdown select{
+    width: 70%;
+    margin-top: 5px;
+    border-radius:3px;
+    padding: 5px;
+}
+
+.cuisine{
+    margin-bottom: 20px;
+}
+.cuisine p{
+    margin-bottom: 10px;
+    color: #192F60;
+}
+.cuisine input{
+    color: black;
+    width: 18px;
+    height: 18px;
+   
+}
+
+.cuisine label{
+    margin-left: 5px;
+    position: relative;
+    top: -4px;
+    color: #8C96AB;
+}
+
+.CostForTwo{
+    margin-bottom: 10px;
+}
+.CostForTwo p{
+    color: #192F60;
+    margin-bottom: 5px;
+}
+.CostForTwo input{
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}
+.CostForTwo label{
+    position: relative;
+    top: -5px;
+    margin-left: 3px;
+    color: #8C96AB;
+}
+
+
+.sort h3{
+    color: #192F60;
+    margin-bottom: 5px;
+}
+.sort input{
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}
+.sort label{
+    position: relative;
+    top: -3px   ;
+    color: #8C96AB;
+}
+
+
+.results .result1 .inner{
+    /* background-color: green; */
+    width: 900px;
+    height: 100px;
+    display: flex;
+    
+    align-items: center;
+}
+.inner .image img{
+    width: 150px;
+    border-radius: 20px;
+    height:110px ;
+}
+.inner .image,.content{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.result1 hr{
+    margin-top: 50px;
+    width:800px;
+    margin-left: 50px;
+}
+
+.outer{
+    /* background-color: red; */
+    width:250px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.outer .outer1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.outer1 .outer11{
+    margin-top: 5px;
+}
+.result2 .inner0{
+    display: flex;
+   align-items: center;
+   position: relative;
+   bottom: 30px;
+}
+.result2 hr{
+    position: relative;
+    top: -10px;
+    width:800px;
+    margin-left: 50px; 
+}
+.result2 .outer{
+   position: relative;
+   top: -10px;
+}
+
+
+.results .pagination{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    background-color: blue; 
+    font-size: 20px;
+}
+.pagination p{
+    margin-left: 20px;
+    border: 1px solid #8C96AB;
+    padding: 3px 10px;
+}
+.pagination p a{
+    text-decoration: none;
+    color:#8C96AB;;
+}
